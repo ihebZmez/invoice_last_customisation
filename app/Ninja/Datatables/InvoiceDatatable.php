@@ -63,20 +63,26 @@ class InvoiceDatatable extends EntityDatatable
                 'totalTax',
                 function ($model) {
                     //^ calcule of taxs here
-                    $Ddt3 = $model->custom_value1;
+                    if($model->custom_value1){
+                        $Ddt3 = $model->custom_value1;
+                    } else {
+                        $Ddt3 = 0;
+                    }
+                    
                     $amount2 = Utils::ReversecalculateTaxe($model->amount-$Ddt3, $model->tax_rate2);
                     $amount1 = Utils::ReversecalculateTaxe($model->amount-$Ddt3-$amount2, $model->tax_rate1);                    
-                    if($model->custom_value1 != 0){
+                    if($model->custom_value1 != 0 && $model->custom_value1){
                         $str3 = 'DdT : ' .Utils::formatMoney($Ddt3, $model->currency_id, $model->country_id). ' <br> ';                       
                     }else{
                         $str3 = null;
                     }
-                    if($model->tax_rate2 != 0){
+                    if($model->tax_rate2 != 0 && $model->tax_rate2){
                         $str2 = $model->tax_name2. ' :' .Utils::formatMoney($amount2, $model->currency_id, $model->country_id). ' <br> ';                       
+                        
                     }else{
                         $str2 = null;
                     }
-                    if($model->tax_rate1 != 0){
+                    if($model->tax_rate1 != 0 && $model->tax_rate1){
                         $str = $model->tax_name1. ' :' .Utils::formatMoney($amount1, $model->currency_id, $model->country_id). ' <br> ';                       
                     }else{
                         $str = null;

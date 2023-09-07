@@ -29,6 +29,7 @@
         @endif
 
 		<div class="pull-right">
+			<!--this button for download the proposal to fix-->
 			<!--{!! Button::normal(trans('texts.download'))->asLinkTo(url("/proposal/{$proposalInvitation->invitation_key}/download"))->large() !!}-->
 		</div>
 		<div class="clearfix"></div><br/>

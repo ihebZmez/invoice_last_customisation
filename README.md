@@ -194,3 +194,9 @@ https://www.virtuozzo.com/application-platform-docs/php-application-server-confi
 ## This Function is to the cron job to send reccuring email
 ## and if you don't want the output
 0 7 * * * curl --silent "http://invoicepro.cfacgroup.com/run_command?command=send-invoices&secret=10101010" > /dev/null
+
+
+## this is a blogger where images cfac and all entreprise are putted:
+https://www.blogger.com/blog/posts/5725059306816087074
+
+email: iheb@cfac.com.tn

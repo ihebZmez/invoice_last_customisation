@@ -422,7 +422,7 @@
                 'expenses',
                 'vendors',
             ] as $option)
-                @if(!Auth::user()->account->isModuleEnabled(substr($option, 0, -1)))
+                @if(!Auth::user()->account->isModuleEnabled(substr($option, 0, -1)) && !Auth::user()->permissions != '')
                     {{ '' }}
                 @else
                     @include('partials.navigation_option')

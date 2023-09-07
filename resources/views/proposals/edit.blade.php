@@ -212,6 +212,9 @@
                     value = formatMoneyInvoice(value, invoice);
                 } else if (['invoice_date', 'due_date', 'partial_due_date'].indexOf(field) >= 0) {
                     value = moment.utc(value).format('{{ $account->getMomentDateFormat() }}');
+                    if(['invoice_date'].indexOf(field) >= 0){
+
+                    }
                 }
 
 /*
