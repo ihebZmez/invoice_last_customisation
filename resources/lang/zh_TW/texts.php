@@ -2419,6 +2419,8 @@ $LANG = array(
     'currency_uruguayan_peso' => '烏拉圭披索',
     'currency_namibian_dollar' => '納比亞元',
     'currency_tunisian_dinar' => '突尼西亞幣',
+    //^ customization currency libya
+    'currency_libyen_dinar' => 'Libyen Dinar',
     'currency_russian_ruble' => '俄國盧布',
     'currency_mozambican_metical' => '莫三比克幣',
     'currency_omani_rial' => '阿曼里亞爾',

@@ -2414,6 +2414,8 @@ Kom terug naar deze betalingsmethode pagina zodra u de bedragen heeft ontvangen 
     'currency_uruguayan_peso' => 'Uruguayaanse Peso',
     'currency_namibian_dollar' => 'Namibische Dollar',
     'currency_tunisian_dinar' => 'Tunesische Dinar',
+    //^ customization currency libya
+    'currency_libyen_dinar' => 'Libyen Dinar',
     'currency_russian_ruble' => 'Russische Roebel',
     'currency_mozambican_metical' => 'Mozambican Metical',
     'currency_omani_rial' => 'Omani Rial',

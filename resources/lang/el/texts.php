@@ -2422,6 +2422,8 @@ email που είναι συνδεδεμένη με το λογαριασμό σ
     'currency_uruguayan_peso' => 'Πέσο Ουρουγουάης',
     'currency_namibian_dollar' => 'Δολάριο Ναμίμπια',
     'currency_tunisian_dinar' => 'Δηνάριο Τυνησίας',
+    //^ customization currency libya
+    'currency_libyen_dinar' => 'Libyen Dinar',
     'currency_russian_ruble' => 'Ρούβλι Ρωσίας',
     'currency_mozambican_metical' => 'Μετικάλ Μοζαμβίκης',
     'currency_omani_rial' => 'Ριάλ Ομάν',

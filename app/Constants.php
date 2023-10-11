@@ -64,6 +64,8 @@ if (! defined('APP_NAME')) {
         ENTITY_TASK,
         ENTITY_VENDOR,
         ENTITY_RECURRING_INVOICE,
+        // ^ customization cfac role for the category for non admin
+        ENTITY_EXPENSE_CATEGORY,
     ];
 
     define('PERMISSION_ENTITIES', json_encode($permissionEntities));

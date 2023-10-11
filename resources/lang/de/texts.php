@@ -2423,6 +2423,8 @@ Sobald Sie die Beträge erhalten haben, kommen Sie bitte wieder zurück zu diese
     'currency_uruguayan_peso' => 'Uruguayischer Peso',
     'currency_namibian_dollar' => 'Namibischer Dollar',
     'currency_tunisian_dinar' => 'Tunesischer Dinar',
+    //^ customization currency libya
+    'currency_libyen_dinar' => 'Libyen Dinar',
     'currency_russian_ruble' => 'Russische Rubel',
     'currency_mozambican_metical' => 'Mosambik-Metical',
     'currency_omani_rial' => 'Omanischer Rial',

@@ -2416,6 +2416,8 @@ Quando tiver as quantias, volte a esta página de formas de pagamento e clique "
     'currency_uruguayan_peso' => 'Peso uruguaio',
     'currency_namibian_dollar' => 'Dólar namibiano',
     'currency_tunisian_dinar' => 'Dinar tunisiano',
+    //^ customization currency libya
+    'currency_libyen_dinar' => 'Libyen Dinar',
     'currency_russian_ruble' => 'Rublo Russo',
     'currency_mozambican_metical' => 'Metical moçambicano',
     'currency_omani_rial' => 'Rial omanense',

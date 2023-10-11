@@ -2423,6 +2423,8 @@ Atentie: Folosește Legacy API Key, nu Token API',
     'currency_uruguayan_peso' => 'Uruguayan Peso',
     'currency_namibian_dollar' => 'Namibian Dollar',
     'currency_tunisian_dinar' => 'Tunisian Dinar',
+    //^ customization currency libya
+    'currency_libyen_dinar' => 'Libyen Dinar',
     'currency_russian_ruble' => 'Russian Ruble',
     'currency_mozambican_metical' => 'Mozambican Metical',
     'currency_omani_rial' => 'Omani Rial',

@@ -2426,6 +2426,8 @@ Lorsque les montant apparaîtront sur votre relevé, veuillez revenir sur cette 
     'currency_uruguayan_peso' => 'Peso uruguayen',
     'currency_namibian_dollar' => 'Dollar namibien',
     'currency_tunisian_dinar' => 'Dinar tunisien',
+    //^ customization currency libya
+    'currency_libyen_dinar' => 'Dinar Libye',
     'currency_russian_ruble' => 'Rouble russe',
     'currency_mozambican_metical' => 'Metical mozambicain',
     'currency_omani_rial' => 'Rial omanais',
